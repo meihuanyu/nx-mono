@@ -2,7 +2,9 @@
   "name": "mhy",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "npx nx run-many --target=build"
+  },
   "private": true,
   "dependencies": {
     "tslib": "^2.3.0"
